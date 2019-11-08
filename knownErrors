@@ -1,0 +1,127 @@
+networking.cpp: In member function ‘char* networking::receivePodNameFromServer(int)’:
+networking.cpp:65:10: warning: address of local variable ‘buf’ returned [enabled by default]
+networking.cpp:65:10: warning: address of local variable ‘buf’ returned [enabled by default]
+networking.cpp:65:10: warning: address of local variable ‘buf’ returned [enabled by default]
+quikolo.cpp: In member function ‘void* quikolo::collectSLOmetric(void*)’:
+quikolo.cpp:586:38: error: invalid conversion from ‘char*’ to ‘uint16_t {aka short unsigned int}’ [-fpermissive]
+/usr/include/netinet/in.h:370:17: error:   initializing argument 1 of ‘uint16_t htons(uint16_t)’ [-fpermissive]
+quikolo.cpp:599:19: error: ‘class borgc’ has no member named ‘setDirections’
+quikolo.cpp:603:15: error: ‘tprofile’ was not declared in this scope
+quikolo.cpp:603:26: error: ‘lastprofile’ was not declared in this scope
+quikolo.cpp:616:31: error: ‘tv_seconds’ was not declared in this scope
+quikolo.cpp:617:17: error: ‘iseconds’ was not declared in this scope
+quikolo.cpp:618:17: error: ‘imilliseconds’ was not declared in this scope
+quikolo.cpp:622:16: error: template argument required for ‘struct messages’
+quikolo.cpp:622:24: error: template argument 1 is invalid
+quikolo.cpp:622:24: error: template argument 2 is invalid
+quikolo.cpp:622:35: error: invalid type in declaration before ‘=’ token
+quikolo.cpp:622:53: error: ‘class borgc’ has no member named ‘getMessages’
+quikolo.cpp:624:22: error: ‘label’ was not declared in this scope
+quikolo.cpp:624:61: error: ‘tprofile’ was not declared in this scope
+quikolo.cpp:626:9: error: ‘DataSend’ was not declared in this scope
+quikolo.cpp: In member function ‘char* quikolo::strArg(char*)’:
+quikolo.cpp:634:14: warning: address of local variable ‘output’ returned [enabled by default]
+In file included from /usr/include/c++/4.6/arm-linux-gnueabihf/./bits/c++allocator.h:34:0,
+                 from /usr/include/c++/4.6/bits/allocator.h:48,
+                 from /usr/include/c++/4.6/string:43,
+                 from /usr/include/c++/4.6/bits/locale_classes.h:42,
+                 from /usr/include/c++/4.6/bits/ios_base.h:43,
+                 from /usr/include/c++/4.6/ios:43,
+                 from /usr/include/c++/4.6/ostream:40,
+                 from /usr/include/c++/4.6/iostream:40,
+                 from types.h:26,
+                 from cpucounters.h:33,
+                 from quikolo.h:1,
+                 from quikolo.cpp:1:
+/usr/include/c++/4.6/ext/new_allocator.h: In member function ‘void __gnu_cxx::new_allocator<_Tp>::construct(__gnu_cxx::new_allocator<_Tp>::pointer, const _Tp&) [with _Tp = char [80], __gnu_cxx::new_allocator<_Tp>::pointer = char (*)[80]]’:
+/usr/include/c++/4.6/bits/stl_vector.h:830:6:   instantiated from ‘void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = char [80], _Alloc = std::allocator<char [80]>, std::vector<_Tp, _Alloc>::value_type = char [80]]’
+quikolo.cpp:48:62:   instantiated from here
+/usr/include/c++/4.6/ext/new_allocator.h:108:9: error: ISO C++ forbids initialization in array new [-fpermissive]
+In file included from /usr/include/c++/4.6/vector:70:0,
+                 from pci.h:38,
+                 from cpucounters.h:35,
+                 from quikolo.h:1,
+                 from quikolo.cpp:1:
+/usr/include/c++/4.6/bits/vector.tcc: In member function ‘void std::vector<_Tp, _Alloc>::_M_insert_aux(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const char (&)[80]}, _Tp = char [80], _Alloc = std::allocator<char [80]>, std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<char (*)[80], std::vector<char [80]> >, typename std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type::pointer = char (*)[80]]’:
+/usr/include/c++/4.6/bits/stl_vector.h:834:4:   instantiated from ‘void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = char [80], _Alloc = std::allocator<char [80]>, std::vector<_Tp, _Alloc>::value_type = char [80]]’
+quikolo.cpp:48:62:   instantiated from here
+/usr/include/c++/4.6/bits/vector.tcc:319:4: error: ISO C++ forbids casting to an array type ‘char [80]’
+In file included from /usr/include/c++/4.6/arm-linux-gnueabihf/./bits/c++allocator.h:34:0,
+                 from /usr/include/c++/4.6/bits/allocator.h:48,
+                 from /usr/include/c++/4.6/string:43,
+                 from /usr/include/c++/4.6/bits/locale_classes.h:42,
+                 from /usr/include/c++/4.6/bits/ios_base.h:43,
+                 from /usr/include/c++/4.6/ios:43,
+                 from /usr/include/c++/4.6/ostream:40,
+                 from /usr/include/c++/4.6/iostream:40,
+                 from types.h:26,
+                 from cpucounters.h:33,
+                 from quikolo.h:1,
+                 from quikolo.cpp:1:
+/usr/include/c++/4.6/ext/new_allocator.h: In member function ‘void __gnu_cxx::new_allocator<_Tp>::construct(__gnu_cxx::new_allocator<_Tp>::pointer, const _Tp&) [with _Tp = char [10], __gnu_cxx::new_allocator<_Tp>::pointer = char (*)[10]]’:
+/usr/include/c++/4.6/bits/stl_vector.h:830:6:   instantiated from ‘void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = char [10], _Alloc = std::allocator<char [10]>, std::vector<_Tp, _Alloc>::value_type = char [10]]’
+quikolo.cpp:358:60:   instantiated from here
+/usr/include/c++/4.6/ext/new_allocator.h:108:9: error: ISO C++ forbids initialization in array new [-fpermissive]
+In file included from /usr/include/c++/4.6/vector:70:0,
+                 from pci.h:38,
+                 from cpucounters.h:35,
+                 from quikolo.h:1,
+                 from quikolo.cpp:1:
+/usr/include/c++/4.6/bits/vector.tcc: In member function ‘void std::vector<_Tp, _Alloc>::_M_insert_aux(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const char (&)[10]}, _Tp = char [10], _Alloc = std::allocator<char [10]>, std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<char (*)[10], std::vector<char [10]> >, typename std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type::pointer = char (*)[10]]’:
+/usr/include/c++/4.6/bits/stl_vector.h:834:4:   instantiated from ‘void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = char [10], _Alloc = std::allocator<char [10]>, std::vector<_Tp, _Alloc>::value_type = char [10]]’
+quikolo.cpp:358:60:   instantiated from here
+/usr/include/c++/4.6/bits/vector.tcc:319:4: error: ISO C++ forbids casting to an array type ‘char [10]’
+In file included from /usr/include/c++/4.6/arm-linux-gnueabihf/./bits/c++allocator.h:34:0,
+                 from /usr/include/c++/4.6/bits/allocator.h:48,
+                 from /usr/include/c++/4.6/string:43,
+                 from /usr/include/c++/4.6/bits/locale_classes.h:42,
+                 from /usr/include/c++/4.6/bits/ios_base.h:43,
+                 from /usr/include/c++/4.6/ios:43,
+                 from /usr/include/c++/4.6/ostream:40,
+                 from /usr/include/c++/4.6/iostream:40,
+                 from types.h:26,
+                 from cpucounters.h:33,
+                 from quikolo.h:1,
+                 from quikolo.cpp:1:
+/usr/include/c++/4.6/ext/new_allocator.h: In member function ‘void __gnu_cxx::new_allocator<_Tp>::construct(__gnu_cxx::new_allocator<_Tp>::pointer, _Args&& ...) [with _Args = {char [80]}, _Tp = char [80], __gnu_cxx::new_allocator<_Tp>::pointer = char (*)[80]]’:
+/usr/include/c++/4.6/bits/vector.tcc:306:4:   instantiated from ‘void std::vector<_Tp, _Alloc>::_M_insert_aux(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const char (&)[80]}, _Tp = char [80], _Alloc = std::allocator<char [80]>, std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<char (*)[80], std::vector<char [80]> >, typename std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type::pointer = char (*)[80]]’
+/usr/include/c++/4.6/bits/stl_vector.h:834:4:   instantiated from ‘void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = char [80], _Alloc = std::allocator<char [80]>, std::vector<_Tp, _Alloc>::value_type = char [80]]’
+quikolo.cpp:48:62:   instantiated from here
+/usr/include/c++/4.6/ext/new_allocator.h:114:4: error: ISO C++ forbids initialization in array new [-fpermissive]
+/usr/include/c++/4.6/ext/new_allocator.h: In member function ‘void __gnu_cxx::new_allocator<_Tp>::destroy(__gnu_cxx::new_allocator<_Tp>::pointer) [with _Tp = char [80], __gnu_cxx::new_allocator<_Tp>::pointer = char (*)[80]]’:
+/usr/include/c++/4.6/bits/vector.tcc:358:3:   instantiated from ‘void std::vector<_Tp, _Alloc>::_M_insert_aux(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const char (&)[80]}, _Tp = char [80], _Alloc = std::allocator<char [80]>, std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<char (*)[80], std::vector<char [80]> >, typename std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type::pointer = char (*)[80]]’
+/usr/include/c++/4.6/bits/stl_vector.h:834:4:   instantiated from ‘void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = char [80], _Alloc = std::allocator<char [80]>, std::vector<_Tp, _Alloc>::value_type = char [80]]’
+quikolo.cpp:48:62:   instantiated from here
+/usr/include/c++/4.6/ext/new_allocator.h:118:30: error: request for member ‘~char [80]’ in ‘* __p’, which is of non-class type ‘char [80]’
+/usr/include/c++/4.6/ext/new_allocator.h: In member function ‘void __gnu_cxx::new_allocator<_Tp>::construct(__gnu_cxx::new_allocator<_Tp>::pointer, _Args&& ...) [with _Args = {char [10]}, _Tp = char [10], __gnu_cxx::new_allocator<_Tp>::pointer = char (*)[10]]’:
+/usr/include/c++/4.6/bits/vector.tcc:306:4:   instantiated from ‘void std::vector<_Tp, _Alloc>::_M_insert_aux(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const char (&)[10]}, _Tp = char [10], _Alloc = std::allocator<char [10]>, std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<char (*)[10], std::vector<char [10]> >, typename std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type::pointer = char (*)[10]]’
+/usr/include/c++/4.6/bits/stl_vector.h:834:4:   instantiated from ‘void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = char [10], _Alloc = std::allocator<char [10]>, std::vector<_Tp, _Alloc>::value_type = char [10]]’
+quikolo.cpp:358:60:   instantiated from here
+/usr/include/c++/4.6/ext/new_allocator.h:114:4: error: ISO C++ forbids initialization in array new [-fpermissive]
+/usr/include/c++/4.6/ext/new_allocator.h: In member function ‘void __gnu_cxx::new_allocator<_Tp>::destroy(__gnu_cxx::new_allocator<_Tp>::pointer) [with _Tp = char [10], __gnu_cxx::new_allocator<_Tp>::pointer = char (*)[10]]’:
+/usr/include/c++/4.6/bits/vector.tcc:358:3:   instantiated from ‘void std::vector<_Tp, _Alloc>::_M_insert_aux(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const char (&)[10]}, _Tp = char [10], _Alloc = std::allocator<char [10]>, std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<char (*)[10], std::vector<char [10]> >, typename std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type::pointer = char (*)[10]]’
+/usr/include/c++/4.6/bits/stl_vector.h:834:4:   instantiated from ‘void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = char [10], _Alloc = std::allocator<char [10]>, std::vector<_Tp, _Alloc>::value_type = char [10]]’
+quikolo.cpp:358:60:   instantiated from here
+/usr/include/c++/4.6/ext/new_allocator.h:118:30: error: request for member ‘~char [10]’ in ‘* __p’, which is of non-class type ‘char [10]’
+In file included from AgilePredictor1n1.h:8:0,
+                 from AgilePredictor1n1.cpp:6:
+networking.h: At global scope:
+networking.h:38:7: error: redefinition of ‘class networking’
+networking.h:38:7: error: previous definition of ‘class networking’
+In file included from AgilePredictor1n1.h:9:0,
+                 from AgilePredictor1n1.cpp:6:
+agileMySQL.h:40:7: error: redefinition of ‘class agileMySQL’
+agileMySQL.h:40:7: error: previous definition of ‘class agileMySQL’
+quikolo.h: In member function ‘int AgilePredictor1n1::GetWindow(long int)’:
+quikolo.h:77:10: error: ‘std::string quikolo::receivePack(char*, long int)’ is private
+AgilePredictor1n1.cpp:150:45: error: within this context
+AgilePredictor1n1.cpp:151:43: error: no matching function for call to ‘agileMySQL::loadArray(std::string&)’
+AgilePredictor1n1.cpp:151:43: note: candidate is:
+agileMySQL.h:51:7: note: int agileMySQL::loadArray()
+agileMySQL.h:51:7: note:   candidate expects 0 arguments, 1 provided
+quikolo.h:78:10: error: ‘std::string quikolo::receivePackSLO(char*, long int)’ is private
+AgilePredictor1n1.cpp:155:41: error: within this context
+AgilePredictor1n1.cpp:156:35: error: no matching function for call to ‘agileMySQL::loadSLOs(std::string&)’
+AgilePredictor1n1.cpp:156:35: note: candidate is:
+agileMySQL.h:50:7: note: int agileMySQL::loadSLOs()
+agileMySQL.h:50:7: note:   candidate expects 0 arguments, 1 provided

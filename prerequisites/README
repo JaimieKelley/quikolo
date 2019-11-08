@@ -1,0 +1,6 @@
+Make sure gcc and gcc-g++ are installed on your architecture.
+Install the appropriate mysql-connector-c++ for your architecture. 
+boost and boost-devel are also required for this.
+Clone https://github.com/opcm/pcm.git
+Add the directory for pcm to your path and set this value in the appropriate build file.
+libnetfilter_queue and libnetfilter_queue-devel are also needed for libipq.

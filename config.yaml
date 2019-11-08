@@ -1,0 +1,4 @@
+execute: /home/osuml/fiction:/data/fiction jlfkelley/mylucene 1051
+name: lucenetestheavyalone
+timeout: 0.5
+queries: oe.questions.config
